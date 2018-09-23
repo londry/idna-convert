@@ -16,7 +16,7 @@
  * @version 0.1.1 2016-01-24
  */
 
-namespace Mso\IdnaConvert;
+namespace Londry\IdnaConvert;
 
 class UnicodeTranscoder implements UnicodeTranscoderInterface
 {
