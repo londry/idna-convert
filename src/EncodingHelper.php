@@ -8,7 +8,7 @@
  * @version 1.0.0 2016-01-08
  */
 
-namespace Mso\IdnaConvert;
+namespace Londry\IdnaConvert;
 
 class EncodingHelper
 {
