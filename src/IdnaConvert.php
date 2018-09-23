@@ -50,7 +50,7 @@
  * @version 1.0.1-dev 2016-01-12
  */
 
-namespace Mso\IdnaConvert;
+namespace Londry\IdnaConvert;
 
 class IdnaConvert {
 
