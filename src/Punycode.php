@@ -170,7 +170,9 @@ class Punycode implements PunycodeInterface
         $check_deco = array_slice($decoded, 0, $extract);
 
         if ($check_pref == $check_deco) {
-            throw new \InvalidArgumentException('This is already a Punycode string');
+            // throw new \InvalidArgumentException('This is already a Punycode string');
+            // Fix: if customer provide a Punycode Like Domain String (start with xn--), we will do nothing and return the domain string
+            return $decode;
         }
         // We will not try to encode strings consisting of basic code points only
         $encodable = false;
