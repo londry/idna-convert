@@ -1,6 +1,6 @@
 <?php
 
-namespace Mso\IdnaConvert;
+namespace Londry\IdnaConvert;
 
 interface NamePrepDataInterface
 {
